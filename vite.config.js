@@ -7,9 +7,10 @@ export default defineConfig({
     outDir: 'dist',
     rollupOptions: {
       input: {
-        popup: 'src/extension/popup.jsx',
+        app: "src/App.jsx",
+        popup: 'src/extension/App.jsx',
         options: 'src/extension/options.jsx',
-        contentScript: 'src/extension/contentScript.jsx',
+        content: 'src/extension/contentScript.jsx',
         background: 'src/extension/background.js',
         hook: 'src/extension/hooks.js',
         devtools: 'src/extension/devtools.jsx',
