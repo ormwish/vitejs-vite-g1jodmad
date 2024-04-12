@@ -1,0 +1,1 @@
+chrome.runtime.onMessage.addListener((a,e,d)=>{a.type==="DATA"&&(console.log("Received React data:",a.data.reactData),console.log("Received Redux data:",a.data.reduxData),console.log("Received Next.js data:",a.data.nextData),console.log("Received build data:",a.data.buildData))});

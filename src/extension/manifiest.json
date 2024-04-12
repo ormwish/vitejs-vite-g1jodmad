@@ -1,0 +1,33 @@
+{
+  "manifest_version": 3,
+  "name": "ZBST@TOOLS",
+  "version": "1.0",
+  "description": "A browser extension for developing and debugging React",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage",
+    "scripting",
+    "fileSystem",
+    "inspector",
+    "webRequest",
+    "webRequestBlocking"
+  ],
+  "background": {
+    "service_worker": "dist/background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["dist/hook.js"]
+    }
+  ],
+  "devtools_page": "dist/devtools.html",
+  "options_page": "dist/options.html",
+  "web_accessible_resources": [
+    {
+      "resources": ["dist/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
