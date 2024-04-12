@@ -8,12 +8,10 @@ export default defineConfig({
     rollupOptions: {
       input: {
         app: "src/App.jsx",
-        popup: 'src/extension/App.jsx',
-        options: 'src/extension/options.jsx',
-        content: 'src/extension/contentScript.jsx',
+        options: 'src/options.jsx',
         background: 'src/extension/background.js',
-        hook: 'src/extension/hooks.js',
-        devtools: 'src/extension/devtools.jsx',
+        hook: 'src/hooks.js',
+        devtools: 'src/devtools.jsx',
 
         // TODO: CLEAN THIS UP
       },
