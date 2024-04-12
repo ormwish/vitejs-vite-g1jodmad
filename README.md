@@ -66,9 +66,10 @@ This `README.md` covers the key aspects of your project, including:
 - Contribution guidelines for those who want to help improve your project
 - License information
 - Acknowledgements for major dependencies and tools used in your project
-
+**
 Feel free to customize this template to better fit your project's specific needs. You might want to add sections for troubleshooting, frequently asked questions, or screenshots of your extension in action.
 
 Remember to keep your `README.md` up-to-date as your project evolves. A good README is an invaluable resource for both new and existing contributors, and can help attract interest and investment in your project.
 
 Let me know if you have any other questions!
+**
