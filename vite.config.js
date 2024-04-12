@@ -12,7 +12,6 @@ export default defineConfig({
         background: 'src/extension/background.js',
         hook: 'src/hooks.js',
         devtools: 'src/devtools.jsx',
-
         // TODO: CLEAN THIS UP
       },
       output: {
